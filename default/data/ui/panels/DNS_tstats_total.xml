@@ -1,0 +1,7 @@
+<panel>
+  <single>
+    <title>DNS_tstats_total</title>
+    <search ref="DNS_tstats_total"></search>
+    <option name="drilldown">none</option>
+  </single>
+</panel>

@@ -1,0 +1,250 @@
+country_name,destination_country,3_code,ISO_code,subdivision_code,TLD
+Andorra,AD,AND,20,ISO 3166-2:AD,.ad
+United Arab Emirates,AE,ARE,784,ISO 3166-2:AE,.ae
+Afghanistan,AF,AFG,4,ISO 3166-2:AF,.af
+Antigua and Barbuda,AG,ATG,28,ISO 3166-2:AG,.ag
+Anguilla,AI,AIA,660,ISO 3166-2:AI,.ai
+Albania,AL,ALB,8,ISO 3166-2:AL,.al
+Armenia,AM,ARM,51,ISO 3166-2:AM,.am
+Angola Angola,AO,AGO,24,ISO 3166-2:AO,.ao
+Antarctica,AQ,ATA,10,ISO 3166-2:AQ,.aq
+Argentina,AR,ARG,32,ISO 3166-2:AR,.ar
+American Samoa,AS,ASM,16,ISO 3166-2:AS,.as
+Austria,AT,AUT,40,ISO 3166-2:AT,.at
+Australia,AU,AUS,36,ISO 3166-2:AU,.au
+Aruba,AW,ABW,533,ISO 3166-2:AW,.aw
+Åland Islands,AX,ALA,248,ISO 3166-2:AX,.ax
+Azerbaijan,AZ,AZE,31,ISO 3166-2:AZ,.az
+Bosnia and Herzegovina,BA,BIH,70,ISO 3166-2:BA,.ba
+Barbados,BB,BRB,52,ISO 3166-2:BB,.bb
+Bangladesh,BD,BGD,50,ISO 3166-2:BD,.bd
+Belgium,BE,BEL,56,ISO 3166-2:BE,.be
+Burkina Faso,BF,BFA,854,ISO 3166-2:BF,.bf
+Bulgaria,BG,BGR,100,ISO 3166-2:BG,.bg
+Bahrain,BH,BHR,48,ISO 3166-2:BH,.bh
+Burundi,BI,BDI,108,ISO 3166-2:BI,.bi
+Benin,BJ,BEN,204,ISO 3166-2:BJ,.bj
+Saint Barthélemy,BL,BLM,652,ISO 3166-2:BL,.bl
+Bermuda,BM,BMU,60,ISO 3166-2:BM,.bm
+Brunei,BN,BRN,96,ISO 3166-2:BN,.bn
+Bolivia,BO,BOL,68,ISO 3166-2:BO,.bo
+"Bonaire, Sint Eustatius, Saba",BQ,BES,535,ISO 3166-2:BQ,.bq .nl
+Brazil,BR,BRA,76,ISO 3166-2:BR,.br
+The Bahamas,BS,BHS,44,ISO 3166-2:BS,.bs
+Bhutan,BT,BTN,,ISO 3166-2:BT,.bt
+Bouvet Island,BV,BVT,74,ISO 3166-2:BV,null
+Botswana,BW,BWA,72,ISO 3166-2:BW,.bw
+Belarus,BY,BLR,112,ISO 3166-2:BY,.by
+Belize,BZ,BLZ,84,ISO 3166-2:BZ,.bz
+Canada,CA,CAN,124,ISO 3166-2:CA,.ca
+Cocos (Keeling) Islands,CC,CCK,166,ISO 3166-2:CC,.cc
+Democratic Republic of the Congo,CD,COD,180,ISO 3166-2:CD,.cd
+Central African Republic,CF,CAF,140,ISO 3166-2:CF,.cf
+Republic of the Congo,CG,COG,178,ISO 3166-2:CG,.cg
+Switzerland,CH,CHE,756,ISO 3166-2:CH,.ch
+Ivory Coast,CI,CIV,384,ISO 3166-2:CI,.ci
+Cook Islands,CK,COK,184,ISO 3166-2:CK,.ck
+Chile,CL,CHL,152,ISO 3166-2:CL,.cl
+Cameroon,CM,CMR,120,ISO 3166-2:CM,.cm
+China,CN,CHN,156,ISO 3166-2:CN,.cn
+Colombia,CO,COL,170,ISO 3166-2:CO,.co
+Costa Rica,CR,CRI,188,ISO 3166-2:CR,.cr
+Cuba,CU,CUB,192,ISO 3166-2:CU,.cu
+Cabo Verde,CV,CPV,132,ISO 3166-2:CV,.cv
+Curaçao,CW,CUW,531,ISO 3166-2:CW,.cw
+Christmas Island,CX,CXR,162,ISO 3166-2:CX,.cx
+Cyprus,CY,CYP,196,ISO 3166-2:CY,.cy
+Czechia,CZ,CZE,203,ISO 3166-2:CZ,.cz
+Germany,DE,DEU,276,ISO 3166-2:DE,.de
+Djibouti,DJ,DJI,262,ISO 3166-2:DJ,.dj
+Denmark,DK,DNK,208,ISO 3166-2:DK,.dk
+Dominica,DM,DMA,212,ISO 3166-2:DM,.dm
+Dominican Republic,DO,DOM,214,ISO 3166-2:DO,.do
+Algeria,DZ,DZA,12,ISO 3166-2:DZ,.dz
+Ecuador,EC,ECU,218,ISO 3166-2:EC,.ec
+Estonia,EE,EST,233,ISO 3166-2:EE,.ee
+Egypt,EG,EGY,818,ISO 3166-2:EG,.eg
+Western Sahara,EH,ESH,732,ISO 3166-2:EH,null
+Eritrea,ER,ERI,232,ISO 3166-2:ER,.er
+Spain,ES,ESP,724,ISO 3166-2:ES,.es
+Ethiopia,ET,ETH,231,ISO 3166-2:ET,.et
+Finland,FI,FIN,246,ISO 3166-2:FI,.fi
+Fiji,FJ,FJI,242,ISO 3166-2:FJ,.fj
+Falkland Islands,FK,FLK,238,ISO 3166-2:FK,.fk
+Federated States of Micronesia,FM,FSM,583,ISO 3166-2:FM,.fm
+Faroe Islands,FO,FRO,234,ISO 3166-2:FO,.fo
+France,FR,FRA,250,ISO 3166-2:FR,.fr
+Gabon,GA,GAB,266,ISO 3166-2:GA,.ga
+United Kingdom,GB,GBR,826,ISO 3166-2:GB,.gb .uk
+Grenada,GD,GRD,308,ISO 3166-2:GD,.gd
+Georgia,GE,GEO,268,ISO 3166-2:GE,.ge
+French Guiana,GF,GUF,254,ISO 3166-2:GF,.gf
+Bailiwick of Guernsey,GG,GGY,831,ISO 3166-2:GG,.gg
+Ghana,GH,GHA,288,ISO 3166-2:GH,.gh
+Gibraltar,GI,GIB,292,ISO 3166-2:GI,.gi
+Greenland,GL,GRL,304,ISO 3166-2:GL,.gl
+The Gambia,GM,GMB,270,ISO 3166-2:GM,.gm
+Guinea,GN,GIN,324,ISO 3166-2:GN,.gn
+Guadeloupe,GP,GLP,312,ISO 3166-2:GP,.gp
+Equatorial Guinea,GQ,GNQ,226,ISO 3166-2:GQ,.gq
+Greece,GR,GRC,300,ISO 3166-2:GR,.gr
+South Georgia and the South Sandwich Islands,GS,SGS,239,ISO 3166-2:GS,.gs
+Guatemala,GT,GTM,320,ISO 3166-2:GT,.gt
+Guam,GU,GUM,316,ISO 3166-2:GU,.gu
+Guinea-Bissau,GW,GNB,624,ISO 3166-2:GW,.gw
+Guyana,GY,GUY,328,ISO 3166-2:GY,.gy
+Hong Kong,HK,HKG,344,ISO 3166-2:HK,.hk
+Heard Island and McDonald Islands,HM,HMD,334,ISO 3166-2:HM,.hm
+Honduras,HN,HND,340,ISO 3166-2:HN,.hn
+Croatia,HR,HRV,191,ISO 3166-2:HR,.hr
+Haiti,HT,HTI,332,ISO 3166-2:HT,.ht
+Hungary,HU,HUN,348,ISO 3166-2:HU,.hu
+Indonesia,ID,IDN,360,ISO 3166-2:ID,.id
+Republic of Ireland,IE,IRL,372,ISO 3166-2:IE,.ie
+Israel,IL,ISR,376,ISO 3166-2:IL,.il
+Isle of Man,IM,IMN,833,ISO 3166-2:IM,.im
+India,IN,IND,356,ISO 3166-2:IN,.in
+British Indian Ocean Territory,IO,IOT,86,ISO 3166-2:IO,.io
+Iraq,IQ,IRQ,368,ISO 3166-2:IQ,.iq
+Iran,IR,IRN,364,ISO 3166-2:IR,.ir
+Iceland,IS,ISL,352,ISO 3166-2:IS,.is
+Italy,IT,ITA,380,ISO 3166-2:IT,.it
+Jersey,JE,JEY,832,ISO 3166-2:JE,.je
+Jamaica,JM,JAM,388,ISO 3166-2:JM,.jm
+Jordan,JO,JOR,400,ISO 3166-2:JO,.jo
+Japan,JP,JPN,392,ISO 3166-2:JP,.jp
+Kenya,KE,KEN,404,ISO 3166-2:KE,.ke
+Kyrgyzstan,KG,KGZ,417,ISO 3166-2:KG,.kg
+Cambodia,KH,KHM,116,ISO 3166-2:KH,.kh
+Kiribati,KI,KIR,296,ISO 3166-2:KI,.ki
+Comoros,KM,COM,174,ISO 3166-2:KM,.km
+Saint Kitts and Nevis,KN,KNA,659,ISO 3166-2:KN,.kn
+North Korea,KP,PRK,408,ISO 3166-2:KP,.kp
+South Korea,KR,KOR,410,ISO 3166-2:KR,.kr
+Kuwait,KW,KWT,414,ISO 3166-2:KW,.kw
+Cayman Islands,KY,CYM,136,ISO 3166-2:KY,.ky
+Kazakhstan,KZ,KAZ,398,ISO 3166-2:KZ,.kz
+Laos,LA,LAO,418,ISO 3166-2:LA,.la
+Lebanon,LB,LBN,422,ISO 3166-2:LB,.lb
+Saint Lucia,LC,LCA,662,ISO 3166-2:LC,.lc
+Liechtenstein,LI,LIE,438,ISO 3166-2:LI,.li
+Sri Lanka,LK,LKA,144,ISO 3166-2:LK,.lk
+Liberia,LR,LBR,430,ISO 3166-2:LR,.lr
+Lesotho,LS,LSO,426,ISO 3166-2:LS,.ls
+Lithuania,LT,LTU,440,ISO 3166-2:LT,.lt
+Luxembourg,LU,LUX,442,ISO 3166-2:LU,.lu
+Latvia,LV,LVA,428,ISO 3166-2:LV,.lv
+Libya,LY,LBY,434,ISO 3166-2:LY,.ly
+Morocco,MA,MAR,504,ISO 3166-2:MA,.ma
+Monaco,MC,MCO,492,ISO 3166-2:MC,.mc
+Moldova,MD,MDA,498,ISO 3166-2:MD,.md
+Montenegro,ME,MNE,499,ISO 3166-2:ME,.me
+Saint Martin,MF,MAF,663,ISO 3166-2:MF,.mf
+Madagascar,MG,MDG,450,ISO 3166-2:MG,.mg
+Marshall Islands,MH,MHL,584,ISO 3166-2:MH,.mh
+North Macedonia,MK,MKD,807,ISO 3166-2:MK,.mk
+Mali,ML,MLI,466,ISO 3166-2:ML,.ml
+Myanmar,MM,MMR,104,ISO 3166-2:MM,.mm
+Mongolia,MN,MNG,496,ISO 3166-2:MN,.mn
+Macau,MO,MAC,446,ISO 3166-2:MO,.mo
+Northern Mariana,MP,MNP,580,ISO 3166-2:MP,.mp
+Martinique,MQ,MTQ,474,ISO 3166-2:MQ,.mq
+Mauritania,MR,MRT,478,ISO 3166-2:MR,.mr
+Montserrat,MS,MSR,500,ISO 3166-2:MS,.ms
+Malta,MT,MLT,470,ISO 3166-2:MT,.mt
+Mauritius,MU,MUS,480,ISO 3166-2:MU,.mu
+Maldives,MV,MDV,462,ISO 3166-2:MV,.mv
+Malawi,MW,MWI,454,ISO 3166-2:MW,.mw
+Mexico,MX,MEX,484,ISO 3166-2:MX,.mx
+Malaysia,MY,MYS,458,ISO 3166-2:MY,.my
+Mozambique,MZ,MOZ,508,ISO 3166-2:MZ,.mz
+Namibia,NA,NAM,516,ISO 3166-2:NA,.na
+New Caledonia,NC,NCL,540,ISO 3166-2:NC,.nc
+Niger,NE,NER,562,ISO 3166-2:NE,.ne
+Norfolk Island,NF,NFK,574,ISO 3166-2:NF,.nf
+Nigeria,NG,NGA,566,ISO 3166-2:NG,.ng
+Nicaragua,NI,NIC,558,ISO 3166-2:NI,.ni
+Netherlands,NL,NLD,528,ISO 3166-2:NL,.nl
+Norway,NO,NOR,578,ISO 3166-2:NO,.no
+Nepal,NP,NPL,524,ISO 3166-2:NP,.np
+Nauru,NR,NRU,520,ISO 3166-2:NR,.nr
+Niue,NU,NIU,570,ISO 3166-2:NU,.nu
+New Zealand,NZ,NZL,554,ISO 3166-2:NZ,.nz
+Oman,OM,OMN,512,ISO 3166-2:OM,.om
+Panama,PA,PAN,591,ISO 3166-2:PA,.pa
+Peru,PE,PER,604,ISO 3166-2:PE,.pe
+French Polynesia,PF,PYF,258,ISO 3166-2:PF,.pf
+Papua New Guinea,PG,PNG,598,ISO 3166-2:PG,.pg
+Philippines,PH,PHL,608,ISO 3166-2:PH,.ph
+Pakistan,PK,PAK,586,ISO 3166-2:PK,.pk
+Poland,PL,POL,616,ISO 3166-2:PL,.pl
+Saint Pierre and Miquelon,PM,SPM,666,ISO 3166-2:PM,.pm
+Pitcairn Islands,PN,PCN,612,ISO 3166-2:PN,.pn
+Puerto Rico,PR,PRI,630,ISO 3166-2:PR,.pr
+State of Palestine,PS,PSE,275,ISO 3166-2:PS,.ps
+Portugal,PT,PRT,620,ISO 3166-2:PT,.pt
+Palau,PW,PLW,585,ISO 3166-2:PW,.pw
+Paraguay,PY,PRY,600,ISO 3166-2:PY,.py
+Qatar,QA,QAT,634,ISO 3166-2:QA,.qa
+Réunion,RE,REU,638,ISO 3166-2:RE,.re
+Romania,RO,ROU,642,ISO 3166-2:RO,.ro
+Serbia,RS,SRB,688,ISO 3166-2:RS,.rs
+Russia,RU,RUS,643,ISO 3166-2:RU,.ru
+Rwanda,RW,RWA,646,ISO 3166-2:RW,.rw
+Saudi Arabia,SA,SAU,682,ISO 3166-2:SA,.sa
+Solomon Islands,SB,SLB,90,ISO 3166-2:SB,.sb
+Africa,SC,SYC,690,ISO 3166-2:SC,.sc
+Sudan,SD,SDN,729,ISO 3166-2:SD,.sd
+Sweden,SE,SWE,752,ISO 3166-2:SE,.se
+Singapore,SG,SGP,702,ISO 3166-2:SG,.sg
+"Saint Helena, Ascension Island, Tristan da Cunha",SH,SHN,654,ISO 3166-2:SH,.sh
+Slovenia,SI,SVN,705,ISO 3166-2:SI,.si
+"Svalbard, Jan Mayen",SJ,SJM,744,ISO 3166-2:SJ,null
+Slovakia,SK,SVK,703,ISO 3166-2:SK,.sk
+Sierra Leone,SL,SLE,694,ISO 3166-2:SL,.sl
+San Marino,SM,SMR,674,ISO 3166-2:SM,.sm
+Senegal,SN,SEN,686,ISO 3166-2:SN,.sn
+Somalia,SO,SOM,706,ISO 3166-2:SO,.so
+Suriname,SR,SUR,740,ISO 3166-2:SR,.sr
+South Sudan,SS,SSD,728,ISO 3166-2:SS,.ss
+São Tomé and Príncipe,ST,STP,678,ISO 3166-2:ST,.st
+El Salvador,SV,SLV,222,ISO 3166-2:SV,.sv
+Sint Maarten,SX,SXM,534,ISO 3166-2:SX,.sx
+Syria,SY,SYR,760,ISO 3166-2:SY,.sy
+Eswatini,SZ,SWZ,748,ISO 3166-2:SZ,.sz
+Turks and Caicos Islands,TC,TCA,796,ISO 3166-2:TC,.tc
+Chad,TD,TCD,148,ISO 3166-2:TD,.td
+French Southern and Antarctic Lands,TF,ATF,260,ISO 3166-2:TF,.tf
+Togo,TG,TGO,768,ISO 3166-2:TG,.tg
+Thailand,TH,THA,764,ISO 3166-2:TH,.th
+Tajikistan,TJ,TJK,762,ISO 3166-2:TJ,.tj
+Tokelau,TK,TKL,772,ISO 3166-2:TK,.tk
+East Timor (Timor-Leste),TL,TLS,626,ISO 3166-2:TL,.tl
+Turkmenistan,TM,TKM,795,ISO 3166-2:TM,.tm
+Tunisia,TN,TUN,788,ISO 3166-2:TN,.tn
+Tonga,TO,TON,776,ISO 3166-2:TO,.to
+Turkey,TR,TUR,792,ISO 3166-2:TR,.tr
+Trinidad and Tobago,TT,TTO,780,ISO 3166-2:TT,.tt
+Tuvalu,TV,TUV,798,ISO 3166-2:TV,.tv
+Taiwan,TW,TWN,158,ISO 3166-2:TW,.tw
+Tanzania,TZ,TZA,834,ISO 3166-2:TZ,.tz
+Ukraine,UA,UKR,804,ISO 3166-2:UA,.ua
+Uganda,UG,UGA,800,ISO 3166-2:UG,.ug
+United States Minor Outlying Islands (Pacific),UM,UMI,581,ISO 3166-2:UM,null
+United States of America,US,USA,840,ISO 3166-2:US,.us
+Uruguay Uruguay,UY,URY,858,ISO 3166-2:UY,.uy
+Uzbekistan,UZ,UZB,860,ISO 3166-2:UZ,.uz
+Vatican City,VA,VAT,336,ISO 3166-2:VA,.va
+Saint Vincent and the Grenadines,VC,VCT,670,ISO 3166-2:VC,.vc
+Venezuela,VE,VEN,862,ISO 3166-2:VE,.ve
+British Virgin Islands,VG,VGB,92,ISO 3166-2:VG,.vg
+United States Virgin Islands,VI,VIR,850,ISO 3166-2:VI,.vi
+Vietnam,VN,VNM,704,ISO 3166-2:VN,.vn
+Vanuatu,VU,VUT,548,ISO 3166-2:VU,.vu
+Wallis and Futuna,WF,WLF,876,ISO 3166-2:WF,.wf
+Samoa,WS,WSM,882,ISO 3166-2:WS,.ws
+Yemen,YE,YEM,887,ISO 3166-2:YE,.ye
+Mayotte,YT,MYT,175,ISO 3166-2:YT,.yt
+South Africa,ZA,ZAF,710,ISO 3166-2:ZA,.za
+Zambia,ZM,ZMB,894,ISO 3166-2:ZM,.zm
+Zimbabwe,ZW,ZWE,716,ISO 3166-2:ZW,.zw

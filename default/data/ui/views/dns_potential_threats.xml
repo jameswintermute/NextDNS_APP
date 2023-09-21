@@ -1,0 +1,112 @@
+<form version="1.1" theme="light">
+  <label>DNS Potential Threats</label>
+  <fieldset submitButton="true">
+    <input type="time" token="time">
+      <label></label>
+      <default>
+        <earliest>-7d@d</earliest>
+        <latest>now</latest>
+      </default>
+    </input>
+  </fieldset>
+  <row>
+    <panel>
+      <map>
+        <title>DNS, non-democractic countries (UN ES 11/4) (No False Positive filtering)</title>
+        <search>
+          <query>`nextDNS_index` destination_country=* 
+[| inputlookup UN-ES-11-4 | fields destination_country | format]
+| stats count by destination_country root_domain domain protocol
+| lookup UN-ES-11-4 destination_country OUTPUTNEW country_name
+| eval iso2 = coalesce(destination_country,country)
+| lookup geo_attr_countries iso2 OUTPUTNEW country
+| rename country as Country
+| stats count by Country
+| sort - count
+| geom geo_countries featureIdField=Country</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="mapping.choroplethLayer.colorBins">5</option>
+        <option name="mapping.choroplethLayer.colorMode">categorical</option>
+        <option name="mapping.choroplethLayer.maximumColor">0xaf575a</option>
+        <option name="mapping.choroplethLayer.minimumColor">0x62b3b2</option>
+        <option name="mapping.choroplethLayer.neutralPoint">0</option>
+        <option name="mapping.choroplethLayer.shapeOpacity">0.9</option>
+        <option name="mapping.choroplethLayer.showBorder">1</option>
+        <option name="mapping.data.maxClusters">100</option>
+        <option name="mapping.legend.placement">none</option>
+        <option name="mapping.map.center">(0,0)</option>
+        <option name="mapping.map.panning">1</option>
+        <option name="mapping.map.scrollZoom">0</option>
+        <option name="mapping.map.zoom">2</option>
+        <option name="mapping.markerLayer.markerMaxSize">50</option>
+        <option name="mapping.markerLayer.markerMinSize">10</option>
+        <option name="mapping.markerLayer.markerOpacity">0.8</option>
+        <option name="mapping.showTiles">1</option>
+        <option name="mapping.tileLayer.maxZoom">19</option>
+        <option name="mapping.tileLayer.minZoom">0</option>
+        <option name="mapping.tileLayer.tileOpacity">1</option>
+        <option name="mapping.tileLayer.url">http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png</option>
+        <option name="mapping.type">choropleth</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </map>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>DNS (Rare) Top 10 Countries</title>
+        <search>
+          <query>`nextDNS_index` sourcetype="nextdns:dns" NOT [| inputlookup false_positives | fields root_domain domain]
+| lookup UN-ES-11-4 destination_country OUTPUTNEW country_name as undemocratic
+| lookup 3166-countries destination_country OUTPUTNEW country_name
+| eval undemocratic_state=if(isnotnull(undemocratic),"true","false")
+| stats values(undemocratic_state) as "un-democratic state" values(root_domain) as "root domain" values(domain) as domain count by country_name
+| sort count</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="percentagesRow">false</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="totalsRow">false</option>
+        <option name="wrap">true</option>
+        <format type="color" field="un-democratic state">
+          <colorPalette type="map">{"false":#118832,"true":#D41F1F}</colorPalette>
+        </format>
+      </table>
+    </panel>
+    <panel>
+      <table>
+        <title>DNS to undemocratic states (potential false positives)</title>
+        <search>
+          <query>`nextDNS_index` destination_country=* NOT [| inputlookup false_positives | fields root_domain domain]
+[| inputlookup UN-ES-11-4 | fields destination_country | format]
+| stats count by destination_country root_domain domain protocol
+| lookup UN-ES-11-4 destination_country OUTPUTNEW country_name
+| sort - count</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="count">100</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="percentagesRow">false</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="totalsRow">false</option>
+        <option name="wrap">true</option>
+      </table>
+    </panel>
+  </row>
+</form>

@@ -1,0 +1,52 @@
+destination_country,country_name,vote,3_code
+BY,Belarus,Against,BLR
+KP,North Korea,Against,PRK
+NI,Nicaragua,Against,NIC
+RU,Russia,Against,RUS
+SY,Syria,Against,SYR
+DZ,Algeria,Abstain,DZA
+AM,Armenia,Abstain,ARM
+BO,Bolivia,Abstain,BOL
+BI,Burundi,Abstain,BDI
+CF,Central African Republic,Abstain,CAF
+CN,China,Abstain,CHN
+HK,Hong Kong,(China),HKG
+CD,Democratic Republic of the Congo,Abstain,COD
+CU,Cuba,Abstain,CUB
+ER,Eritrea,Abstain,ERI
+SZ,Eswatini,Abstain,SWZ
+ET,Ethiopia,Abstain,ETH
+GN,Guinea,Abstain,GIN
+HN,Honduras,Abstain,HND
+IN,India,Abstain,IND
+KZ,Kazakhstan,Abstain,KAZ
+KG,Kyrgyzstan,Abstain,KGZ
+LA,Laos,Abstain,LAO
+LS,Lesotho,Abstain,LSO
+ML,Mali,Abstain,MLI
+MN,Mongolia,Abstain,MNG
+MZ,Mozambique,Abstain,MOZ
+NA,Namibia,Abstain,NAM
+PK,Pakistan,Abstain,PAK
+ZA,South Africa,Abstain,ZAF
+SS,South Sudan,Abstain,SSD
+LK,Sri Lanka,Abstain,LKA
+SD,Sudan,Abstain,SDN
+TJ,Tajikistan,Abstain,TJK
+TH,Thailand,Abstain,THA
+TG,Togo,Abstain,TGO
+UG,Uganda,Abstain,UGA
+TZ,Tanzania,Abstain,TZA
+UZ,Uzbekistan,Abstain,UZB
+VN,Vietnam,Abstain,VNM
+ZW,Zimbabwe,Abstain,ZWE
+AZ,Azerbaijan,Absent,AZE
+BF,Burkina Faso,Absent,BFA
+CM,Cameroon,Absent,CMR
+DJ,Djibouti,Absent,DJI
+SV,El Salvador,Absent,SLV
+GQ,Equatorial Guine,Absent,GNQ
+IR,Iran,Absent,IRN
+ST,São Tomé and Príncipe,Absent,STP
+TM,Turkmenistan,Absent,TKM
+VE,Venezuela,Absent,VEN

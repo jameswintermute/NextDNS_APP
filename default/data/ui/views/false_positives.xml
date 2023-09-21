@@ -1,0 +1,25 @@
+<dashboard version="1.1" theme="light">
+  <label>False Positives</label>
+  <description>(csv lookup file contents)</description>
+  <row>
+    <panel>
+      <title>List of False Positive entries to exclude</title>
+      <table>
+        <search>
+          <query>| inputlookup false_positives 
+| fields root_domain domain destination_country added_date review_due added_by
+| sort root_domain</query>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="count">100</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="percentagesRow">false</option>
+        <option name="rowNumbers">false</option>
+        <option name="totalsRow">false</option>
+        <option name="wrap">true</option>
+      </table>
+    </panel>
+  </row>
+</dashboard>

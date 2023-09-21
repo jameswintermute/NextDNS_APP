@@ -1,0 +1,27 @@
+## About
+- This App is intended to be used with the DNS privacy and security tool [NextDNS](https://nextdns.io/)
+- Beta release: this is far from perfect but as a colleague used to tell me, 'Don't let perfect be the enemy of good'.
+- Further development will take place to ensure CIM compliance, Datamodel support etc.
+
+## Setup
+- This is the 'App' which should be installed on your Search Head(s).
+- There is a TA which should be deployed to your UF/HF that takes care of the header fields on ingest
+- Ensure that you set your index within 'macros.conf' Or I guess you can use the UI as an alternative.
+
+## Manual CURL pull from NextDNS
+- The intention is that this step is automated on your UF, but here is the manual pull:
+- Log into your NextDNS account
+- Obtain your ID
+- Navigate to your account page: https://my.nextdns.io/account
+- Obtain your API key
+- Replace the <value> placeholders with the Key and ID values 
+
+<pre>
+   curl -X GET -H "X-Api-Key: <API key>" -s -L https://api.nextdns.io/profiles/<ID>/logs/download > nextdns.log
+</pre>
+
+
+## Git:
+- See [Github](https://github.com/jameswintermute/splunk_nextdns)
+- It may still be private at the time of release but will go public in due course
+- feedback to 'jameswintermute 0x40 protonmail.ch'

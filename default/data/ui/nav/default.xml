@@ -1,0 +1,12 @@
+<nav search_view="search">
+    <view name="dns_stats" default="true" />
+    <view name="dns_potential_threats" />
+	<view name="ip_data" />
+    <view name="false_positives" />
+    <view name="search" />
+    <collection label="General">
+        <view name="reports" />
+        <view name="alerts" />
+        <view name="dashboards" />
+    </collection>
+</nav>
