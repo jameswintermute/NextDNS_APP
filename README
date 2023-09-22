@@ -1,4 +1,5 @@
 ## About
+- This App is written for use within Splunk v8.x, 9.x
 - This App is intended to be used with the DNS privacy and security tool [NextDNS](https://nextdns.io/)
 - Beta release: this is far from perfect but as a colleague used to tell me, 'Don't let perfect be the enemy of good'.
 - Further development will take place to ensure CIM compliance, Datamodel support etc.
