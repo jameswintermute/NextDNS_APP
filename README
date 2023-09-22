@@ -2,6 +2,7 @@
 - This App is intended to be used with the DNS privacy and security tool [NextDNS](https://nextdns.io/)
 - Beta release: this is far from perfect but as a colleague used to tell me, 'Don't let perfect be the enemy of good'.
 - Further development will take place to ensure CIM compliance, Datamodel support etc.
+- I publish this as an individual within the cyber security community, it is not an official reslease from the vendor.
 
 ## Setup
 - This is the 'App' which should be installed on your Search Head(s).
