@@ -5,6 +5,9 @@
 - Further development will take place to ensure CIM compliance, Datamodel support etc.
 - I publish this as an individual within the cyber security community, it is not an official release from the vendor.
 
+## Splunkbase:
+- Listed as of 2023-09-27, see: https://splunkbase.splunk.com/apps?keyword=NextDNS
+
 ## Setup
 - This is the 'App' which should be installed on your Search Head(s).
 - There is a TA which should be deployed to your UF/HF that takes care of the header fields on ingest
@@ -21,7 +24,6 @@
 <pre>
    curl -X GET -H "X-Api-Key: <API key>" -s -L https://api.nextdns.io/profiles/<ID>/logs/download > nextdns.log
 </pre>
-
 
 ## Git:
 - See [Github](https://github.com/jameswintermute/NextDNS_APP)
